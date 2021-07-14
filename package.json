@@ -1,0 +1,51 @@
+{
+  "name": "levelupsever",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd levelup && npm run build",
+    "install-client": "cd levelup && npm install",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix levelup && npm run build --prefix levelup",
+    "client": "cd levelup && npm start --prefix levelup",
+    "server": "nodemon server.js",
+    "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix levelup\"",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix levelup\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitFaisal/levelupSever.git"
+  },
+  "keywords": [],
+  "author": "Faisal Malik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitFaisal/levelupSever/issues"
+  },
+  "engines": {
+    "node": "12.16.2"
+  },
+  "homepage": "https://github.com/gitFaisal/levelupSever#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.13",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "serve": "^12.0.0",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}

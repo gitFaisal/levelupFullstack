@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+  background-image: url(./images/purpleStuff.jpeg);
+  position: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  height: 1300px;
+  width: 100%;
+  overflow-y: scroll;
+  position: relative;
+}
+a:link {
+  text-decoration: none;
+}
+.app-name {
+  text-align: center;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.app-container {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  width: 75vw;
+  margin: auto;
+  margin-top: -30px;
+}
+
+.input-form {
+  text-align: center;
+  padding-right: 25px;
+  margin-top: -50px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.paper-wrap {
+  transition: 0.4s ease;
+}
+.paper-wrap:hover {
+  transform: scale(1.03);
+}
+
+.saved-skill {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: inherit;
+  font-size: 30px;
+  text-shadow: 0px 0px 6px rgba(212, 175, 55, 0.7);
+  color: orange;
+}
+.progressBar {
+  margin: 0%;
+  margin-bottom: 8px;
+  padding: 0px;
+  width: 500px;
+}
+
+.bar-btn {
+  height: 40px;
+  margin-top: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 6px rgba(28, 63, 77, 0.7);
+}
+
+.login-text {
+  color: aliceblue;
+}
+
+.input-field {
+  width: 75%;
+  margin: auto;
+}
+.level-num {
+  margin-top: 15px;
+  color: inherit;
+  font-size: 35px;
+  font-family: inherit;
+  text-shadow: 0px 0px 6px rgba(212, 175, 55, 0.7);
+}
+
+@media (max-width: 1500px) {
+  .app-container {
+    width: 750px;
+  }
+}
+
+@media (max-width: 800px) {
+  .app-container {
+    width: 95%;
+  }
+  .progressBar {
+    width: 100%;
+  }
+  #logo {
+    height: 70%;
+    width: 70%;
+  }
+}
+
+@media (min-width: 1502px) {
+  .app-container {
+    width: 750px;
+  }
+}
