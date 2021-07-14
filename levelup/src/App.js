@@ -5,7 +5,6 @@ import Navbar from "./Components/Navbar";
 import SkillsList from "./Components/SkillsList";
 import Logins from "./Components/Logins";
 import About from "./Components/About";
-import About2 from "./Components/About/About2";
 import Registration from "./Components/Registration";
 import Greeting from "./Components/Greeting/Greeting";
 import logo from "./images/yellow_levelup.png";
