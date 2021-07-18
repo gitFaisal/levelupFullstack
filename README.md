@@ -1,5 +1,6 @@
-##               The level up app
+#              The level up app
 </br>
+--- React | Express | NodeJS | MongoDb Atlas ---</br>
 Link to live website: https://thelevelupapp.herokuapp.com</br>
 Demo user credentials: email: demouser@gmail.com password: demouser123
 </br>
