@@ -3,7 +3,9 @@
 <h2 align="center">TechStack: React | Express | NodeJS | MongoDb Atlas</h2></br>
 <h3 align="center">Link to live website: https://thelevelupapp.herokuapp.com</h3></br>
 <p align="center">
-Demo user credentials: email: demouser@gmail.com password: demouser123
+Demo user credentials: 
+ <p align="center">email: demouser@gmail.com</p> 
+ <p align="center">password: demouser123</p>
 </br>
 This is a productivity app to help users keep track of where they are putting their time in regards to improving a skill. 
 </br>
